@@ -832,7 +832,6 @@ scene.setBackgroundImage(img`
 scroller.scrollBackgroundWithSpeed(-100, 0)
 player1 = sprites.create(assets.image`dino1`, SpriteKind.Player)
 player2 = sprites.create(assets.image`dino2`, SpriteKind.Player)
-player1.setFlag(SpriteFlag.ShowPhysics, true)
 Sprites_On_Screen = 1
 P1_Velocity_x = 100
 P2_Velocity_x = 100
